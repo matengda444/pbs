@@ -1,0 +1,3 @@
+#+BEGIN_CENTER
+private blog system
+#+END_CENTER
