@@ -14,5 +14,10 @@ $config = array(
         'pass' => 'root',
         'charset' => 'utf8',
         'dbname' => 'pbs'
+    ),
+    'emailServer' => array(
+        'host' => '',
+        'username' => '',
+        'password' => ''
     )
 );
