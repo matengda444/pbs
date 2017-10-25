@@ -26,7 +26,6 @@ class App
         self::_defineRouteConst();
         //分发
         self::_dispatchRoute();
-
     }
     protected static function _defineDirConst()
     {
@@ -38,11 +37,15 @@ class App
     }
     protected static function _loadConfig()
     {
-
+        //将app/config/config.php加载进来
+        //echo CONFIG_PATH . DS . 'config.php';
+        require CONFIG_PATH . DS . 'config.php';
+        self::$config = $config;
     }
     protected static function _adaterSystem()
     {
-
+        error_reporting(E_ALL);
+        ini_set('display_errors', 'On');
     }
     protected static function _initialCharset()
     {
@@ -54,16 +57,20 @@ class App
      */
     protected static function _defineRouteConst()
     {
-        $p = isset($_GET['p']) ? $_GET['p'] : 'frontend';
-        $c = isset($_GET['c']) ? $_GET['c'] : 'user';
-        $a = isset($_GET['a']) ? $_GET['a'] : 'index';
+        $p = isset($_GET['p']) ? $_GET['p'] : 'frontend';//平台
+        $c = isset($_GET['c']) ? $_GET['c'] : 'User';//控制器
+        $a = isset($_GET['a']) ? $_GET['a'] : 'index';//动作
         define('PLATFORM', $p);
         define('CONTROLLER', $c);
         define('ACTION', $a);
     }
     protected static function _registerAutoloader()
     {
-
+        spl_autoload_register(function($className)
+        {
+            //echo str_replace('\\', DIRECTORY_SEPARATOR, $className);
+           require ROOT . DS . str_replace('\\', DIRECTORY_SEPARATOR, $className) . '.php';
+        });
     }
 
     /**
@@ -71,6 +78,11 @@ class App
      */
     protected static function _dispatchRoute()
     {
-
+        $ctrl_name = '\\app\\controller\\' . PLATFORM. '\\' . CONTROLLER;
+        //$ctrl_name = CONTROLLER;
+        //echo $ctrl_name;die;
+        $ctrl = new $ctrl_name();
+        $a = ACTION;
+        $ctrl -> $a();
     }
 }
