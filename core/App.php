@@ -80,9 +80,10 @@ class App
     {
         $ctrl_name = '\\app\\controller\\' . PLATFORM. '\\' . CONTROLLER;
         //$ctrl_name = CONTROLLER;
-        //echo $ctrl_name;die;
-        $ctrl = new $ctrl_name();
+        //echo $ctrl_name;
+        //echo ACTION;exit();
+        //$ctrl = new $ctrl_name();
         $a = ACTION;
-        $ctrl -> $a();
+        //$ctrl -> $a();
     }
 }

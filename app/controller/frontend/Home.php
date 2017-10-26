@@ -7,7 +7,18 @@
  */
 namespace app\controller\frontend;
 
-class Home
-{
 
+use core\Controller;
+//use core\Model;
+//use app\model\User;
+class Home extends Controller
+{
+    public function index()
+    {
+        echo 'hello,world';
+    }
+    public function fish()
+    {
+        $this->_redirect('总有刁民想害朕', 'index.php?c=Home&p=frontend&a=index');
+    }
 }
