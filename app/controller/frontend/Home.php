@@ -16,7 +16,14 @@ class Home extends Controller
 {
     public function index()
     {
-        $this -> _loadHtml('index');
+        $word = 'qwerqwerqwerwqer';
+        $word2 = 'adsfasdfsadfasdf';
+
+        $this -> _loadHtml('index', array(
+            'word' => $word,
+            'word2' => $word2,
+            'test' => 'zxcvxcvzxcv'
+        ));
     }
     public function fish()
     {
@@ -37,10 +44,10 @@ class Home extends Controller
             //'nickname' => 'puipoiup',
             //'email' => 'oiupoiu@piup.cc'
         //));
-        $usermodel -> updateById(1, array(
-            'username' => 'upoiup',
-            'nickname' => 'puipoiup',
-            'email' => 'poiupoi@spoadfiu.cc'
-        ));
+        //$usermodel -> updateById(1, array(
+            //'username' => 'upoiup',
+            //'nickname' => 'puipoiup',
+            //'email' => 'poiupoi@spoadfiu.cc'
+        //));
     }
 }

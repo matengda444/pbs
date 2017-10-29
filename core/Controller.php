@@ -14,8 +14,9 @@ class Controller
         echo "<h1>$msg</h1>";
         header("refresh: {$time}; url = {$url}");
     }
-    protected function _loadHtml($file)
+    protected function _loadHtml($file, $data = array())
     {
+        extract($data);
         include ROOT . '/app/view/' . PLATFORM . '/' . $file . '.html';
     }
 }
