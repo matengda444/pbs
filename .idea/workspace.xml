@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="sync">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/backend/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/backend/useradd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/backend/useredit.html" />
+    <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/User.php" afterPath="$PROJECT_DIR$/app/controller/backend/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/backend/userlist.html" afterPath="$PROJECT_DIR$/app/view/backend/userlist.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -334,7 +329,7 @@
       <workItem from="1508834459034" duration="23342000" />
       <workItem from="1508997523211" duration="9712000" />
       <workItem from="1509061461636" duration="6003000" />
-      <workItem from="1509081599611" duration="44790000" />
+      <workItem from="1509081599611" duration="45895000" />
     </task>
     <task id="LOCAL-00001" summary="add create.sql">
       <created>1508394199226</created>
@@ -483,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509267323577</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="sync">
+      <created>1509317568638</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1509317568638</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95122000" />
+    <option name="totallyTimeSpent" value="96227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="392" y="82" width="841" height="657" extended-state="0" />
@@ -960,16 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/app/controller/backend/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="149" column="9" lean-forward="true" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
-          <folding>
-            <element signature="e#41#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -985,6 +977,16 @@
         <state relative-caret-position="237">
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/app/controller/backend/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="149" column="9" lean-forward="true" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
+          <folding>
+            <element signature="e#41#61#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
