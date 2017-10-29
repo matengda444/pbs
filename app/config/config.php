@@ -6,7 +6,7 @@
  * Time: 14:51
  */
 $config = array(
-    'databases' => array(
+    'database' => array(
         'type' => 'mysql',
         'host' => 'localhost',
         'port' => '3306',

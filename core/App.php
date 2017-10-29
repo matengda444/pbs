@@ -82,8 +82,8 @@ class App
         //$ctrl_name = CONTROLLER;
         //echo $ctrl_name;
         //echo ACTION;exit();
-        //$ctrl = new $ctrl_name();
+        $ctrl = new $ctrl_name();
         $a = ACTION;
-        //$ctrl -> $a();
+        $ctrl -> $a();
     }
 }

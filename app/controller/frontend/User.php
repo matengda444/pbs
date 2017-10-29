@@ -7,7 +7,7 @@
  */
 namespace app\controller\frontend;
 
-class Home
+class User
 {
     public function index()
     {
