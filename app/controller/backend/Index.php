@@ -15,18 +15,18 @@ class Index extends Controller
 {
     public function index()
     {
-        return $this -> _loadHtml('index');
+        return $this -> _loadHtml('index/index');
     }
     public function top()
     {
-        echo 'top';
+        return $this -> _loadHtml('index/top');
     }
     public function menu()
     {
-        echo 'menu';
+        return $this -> _loadHtml('index/menu');
     }
     public function content()
     {
-        echo 'content';
+        return $this -> _loadHtml('index/content');
     }
 }

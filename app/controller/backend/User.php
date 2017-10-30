@@ -17,7 +17,7 @@ class User extends Controller
         $userModel = new UserModel();
         $users = $userModel -> findAll();
         //var_dump($users);
-        $this -> _loadHtml('userlist', array(
+        $this -> _loadHtml('user/userlist', array(
             'users' => $users
         ));
     }
@@ -46,7 +46,7 @@ class User extends Controller
                 return $this -> _redirect("{$_POST['Name']} 添加失败", '?c=User&p=backend&a=index');
             }
         }
-        $this -> _loadHtml('useradd');
+        $this -> _loadHtml('user/useradd');
     }
     public function edit()
     {
@@ -65,7 +65,7 @@ class User extends Controller
             }
         }
         $user = $userModel -> findById($id);
-        $this -> _loadHtml('useredit', array(
+        $this -> _loadHtml('user/useredit', array(
             'user' => $user
         ));
     }
