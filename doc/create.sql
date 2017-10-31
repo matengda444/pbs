@@ -13,4 +13,6 @@ CREATE TABLE `user` (
   `last_login_ip` VARCHAR(15) NOT NULL DEFAULT ''
 )ENGINE=innodb DEFAULT CHARSET utf8;
 
-ALTER TABLE `user` ADD COLUMN password VARCHAR(64) NO NULL AFTER username;
+ALTER TABLE `user` ADD COLUMN password VARCHAR(64) NOT NULL AFTER username;
+
+UPDATE user SET password = md5(md5('root')) WHERE 1 = 1;
