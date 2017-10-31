@@ -12,3 +12,5 @@ CREATE TABLE `user` (
   `last_login_time` INT UNSIGNED NOT NULL DEFAULT 0,
   `last_login_ip` VARCHAR(15) NOT NULL DEFAULT ''
 )ENGINE=innodb DEFAULT CHARSET utf8;
+
+ALTER TABLE `user` ADD COLUMN password VARCHAR(64) NO NULL AFTER username;
