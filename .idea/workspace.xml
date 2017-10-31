@@ -234,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -279,7 +279,7 @@
       <workItem from="1509081599611" duration="46109000" />
       <workItem from="1509324989104" duration="7575000" />
       <workItem from="1509367486657" duration="1148000" />
-      <workItem from="1509372283640" duration="1159000" />
+      <workItem from="1509372283640" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="add create.sql">
       <created>1508394199226</created>
@@ -470,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509416885069</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="test">
+      <created>1509417199657</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1509417199657</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106323000" />
+    <option name="totallyTimeSpent" value="106682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1311" height="776" extended-state="6" />
