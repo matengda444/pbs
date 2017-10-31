@@ -17,6 +17,15 @@ class Model extends PDOWrapper
     }
 
     /**
+     * 根据条件查处一行数据
+     */
+    public function find($where = '1 = 1')
+    {
+        $sql = "SELECT * FROM {$this -> getTableName()} WHERE {$where} LIMIT 1";
+        return $this -> getOne($sql);
+    }
+
+    /**
      * 查询出所有数据
      */
     public function findAll($where = '1 = 1')

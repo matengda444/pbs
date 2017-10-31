@@ -12,6 +12,8 @@ class App
     public static $config;
     public static function run()
     {
+        //打开session
+        self::_openSession();
         //定义路径常量
         self::_defineDirConst();
         //定义全局字符集
@@ -26,6 +28,10 @@ class App
         self::_defineRouteConst();
         //分发
         self::_dispatchRoute();
+    }
+    protected static function _openSession()
+    {
+        session_start();
     }
     protected static function _defineDirConst()
     {

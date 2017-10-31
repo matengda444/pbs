@@ -15,7 +15,10 @@ class Index extends Controller
 {
     public function index()
     {
-        return $this -> _loadHtml('index/index');
+        if ($_SESSION['loginFlag'] == false) {//没有登录
+            return $this->_redirect('请登录', '?c=User&p=backend&a=login');
+        }
+        return $this->_loadHtml('index/index');
     }
     public function top()
     {
@@ -28,5 +31,9 @@ class Index extends Controller
     public function content()
     {
         return $this -> _loadHtml('index/content');
+    }
+    public function test()
+    {
+        $_SESSION['loginFlag'] = null;
     }
 }
