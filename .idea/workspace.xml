@@ -279,7 +279,7 @@
       <workItem from="1509081599611" duration="46109000" />
       <workItem from="1509324989104" duration="7575000" />
       <workItem from="1509367486657" duration="1148000" />
-      <workItem from="1509372283640" duration="850000" />
+      <workItem from="1509372283640" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="add create.sql">
       <created>1508394199226</created>
@@ -463,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509372303451</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="test">
+      <created>1509416885069</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1509416885069</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106014000" />
+    <option name="totallyTimeSpent" value="106323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1311" height="776" extended-state="6" />
@@ -544,7 +551,8 @@
     <MESSAGE value="add PDOWrapper.php" />
     <MESSAGE value="create User.php" />
     <MESSAGE value="sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="sync" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
