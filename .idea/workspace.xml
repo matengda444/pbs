@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="">
+    <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="addslashes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/backend/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/660b290e-dd9c-4b23-ac1c-f350bcaaddc5.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/660b290e-dd9c-4b23-ac1c-f350bcaaddc5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/User.php" afterPath="$PROJECT_DIR$/app/controller/backend/User.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +64,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -75,11 +76,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="create.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/create.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controller/backend/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user" pinned="false" current-in-tab="false">
+        <entry file="das://table:/6b76640b/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/pbs.user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="41" column="187" lean-forward="true" selection-start-line="41" selection-start-column="187" selection-end-line="41" selection-end-column="187" />
+            <state relative-caret-position="-20">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -150,8 +190,6 @@
         <option value="$PROJECT_DIR$/app/view/backend/index/index.html" />
         <option value="$PROJECT_DIR$/app/view/backend/index/content.html" />
         <option value="$PROJECT_DIR$/app/view/backend/index/menu.html" />
-        <option value="$PROJECT_DIR$/doc/create.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/console.sql" />
         <option value="$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/core/Model.php" />
         <option value="$PROJECT_DIR$/core/Model.php" />
         <option value="$PROJECT_DIR$/core/Controller.php" />
@@ -161,6 +199,8 @@
         <option value="$PROJECT_DIR$/../a.php" />
         <option value="$PROJECT_DIR$/app/view/backend/user/login.html" />
         <option value="$PROJECT_DIR$/app/controller/backend/User.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/console.sql" />
+        <option value="$PROJECT_DIR$/doc/create.sql" />
       </list>
     </option>
   </component>
@@ -172,8 +212,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="100" />
-    <option name="y" value="482" />
+    <option name="x" value="243" />
+    <option name="y" value="225" />
     <option name="width" value="1143" />
     <option name="height" value="785" />
   </component>
@@ -251,6 +291,11 @@
             <path>
               <item name="pbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="pbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="doc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pbs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -311,7 +356,7 @@
       <workItem from="1509367486657" duration="1148000" />
       <workItem from="1509372283640" duration="1828000" />
       <workItem from="1509417880241" duration="1070000" />
-      <workItem from="1509424835416" duration="26779000" />
+      <workItem from="1509424835416" duration="29267000" />
     </task>
     <task id="LOCAL-00001" summary="add create.sql">
       <created>1508394199226</created>
@@ -593,17 +638,31 @@
       <option name="project" value="LOCAL" />
       <updated>1509520769872</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="addslashes">
+      <created>1509524851583</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1509524851583</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update create.sql">
+      <created>1509539560180</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1509539560180</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134841000" />
+    <option name="totallyTimeSpent" value="137329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="100" y="482" width="1143" height="785" extended-state="0" />
+    <frame x="243" y="225" width="1143" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3003049" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4225564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2589204" sideWeight="0.49467275" order="0" side_tool="false" content_ui="combo" x="564" y="131" width="315" height="657" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -678,25 +737,19 @@
     <MESSAGE value="test" />
     <MESSAGE value="git push test" />
     <MESSAGE value="update(app/view/backend/index and user)" />
-    <MESSAGE value="update create.sql" />
     <MESSAGE value="user login" />
     <MESSAGE value="update" />
     <MESSAGE value="add Captcha class(vendor)" />
     <MESSAGE value="captch logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="captch logic" />
+    <MESSAGE value="addslashes" />
+    <MESSAGE value="update create.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="update create.sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day2/day2/app/view/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -904,26 +957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/PDOWrapper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -983,13 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/6b76640b/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/pbs.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-783">
@@ -1005,14 +1035,6 @@
             <marker date="1509461140748" expanded="true" signature="1568:1624" ph="DELETE FROM " />
             <marker date="1509461140748" expanded="true" signature="1964:2053" ph="UPDATE `${{$... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5158">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,10 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
+    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="41" column="187" lean-forward="true" selection-start-line="41" selection-start-column="187" selection-end-line="41" selection-end-column="187" />
+        <state relative-caret-position="-5158">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1079,6 +1101,45 @@
           <folding>
             <element signature="e#120#140#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6b76640b/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/pbs.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/backend/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
