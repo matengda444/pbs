@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="<?php echo PLATFORM ?>/css/module.css" type="text/css" media="screen" />
     <script src="<?php echo PLATFORM ?>/script/common.js" type="text/javascript"></script>
     <script src="<?php echo PLATFORM ?>/script/md5.js" type="text/javascript"></script>
-    <title>www.myblog.com - 登录 - Powered by myblog</title>
+    <title>登录</title>
 </head>
 <body>
 
@@ -39,7 +39,7 @@
                 <dl>
                     <dt></dt>
                     <dd class="username"><label for="edtUserName">验证码:</label><input type="text" id="edtCaptcha" name="edtCaptcha" size="20" value="" tabindex="3" /></dd>
-                    <dd  class="password"><label for="edtCaptcha"><img src="?c=User&p=backend&a=captcha" width="220" height="30" onClick="this.src = 'admin.php?action=captcha&' + Math.random()"></label></dd>
+                    <dd  class="password"><label for="edtCaptcha"><img src="?c=User&p=backend&a=captcha" width="220" height="30" onClick="this.src = '?c=User&p=backend&a=captcha&' + Math.random()"></label></dd>
                 </dl>
                 <dl>
                     <dt></dt>

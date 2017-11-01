@@ -15,6 +15,9 @@ class Index extends Controller
 {
     public function index()
     {
+        if (!isset($_SESSION['loginFlag'])) {//如果session里的loginFlag不存在,表明没有登录
+            $_SESSION['loginFlag'] = false;
+        }
         if ($_SESSION['loginFlag'] == false) {//没有登录
             return $this->_redirect('请登录', '?c=User&p=backend&a=login');
         }
