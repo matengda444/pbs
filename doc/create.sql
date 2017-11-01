@@ -24,3 +24,12 @@ CREATE TABLE `category` (
     `sort` INT UNSIGNED NULL NULL DEFAULT 0,
     `parent_id` INT UNSIGNED NOT NULL DEFAULT 0
 )ENGINE=innodb DEFAULT CHARSET utf8;
+
+INSERT INTO `category` VALUES
+(NULL, '科技', '', 0, 50),
+(NULL, '武侠', '', 0, 50),
+(NULL, 'IT', '', 1, 50),
+(NULL, '生物', '', 1, 50),
+(NULL, '鸟类', '', 6, 50),
+(NULL, '川菜', '', 4, 50),
+(NULL, '粤菜', '', 4, 50)
