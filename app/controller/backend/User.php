@@ -93,6 +93,17 @@ class User extends Controller
         }
     }
 
+    public function logout()
+    {
+        $_SESSION['loginFlag'] = false;
+        return $this -> _redirect('注销成功', '?c=User&p=backend&a=index');
+    }
+
+    public function captcha()
+    {
+
+    }
+
     public function test()
     {
         //echo 'asdfasdfasdfase';

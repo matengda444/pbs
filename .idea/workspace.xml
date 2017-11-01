@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/backend/user/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/660b290e-dd9c-4b23-ac1c-f350bcaaddc5.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/660b290e-dd9c-4b23-ac1c-f350bcaaddc5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/Index.php" afterPath="$PROJECT_DIR$/app/controller/backend/Index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/User.php" afterPath="$PROJECT_DIR$/app/controller/backend/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/App.php" afterPath="$PROJECT_DIR$/core/App.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Model.php" afterPath="$PROJECT_DIR$/core/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/backend/index/top.html" afterPath="$PROJECT_DIR$/app/view/backend/index/top.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/backend/user/login.html" afterPath="$PROJECT_DIR$/app/view/backend/user/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,26 +35,6 @@
     </expand>
     <select />
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/app/controller/backend/Index.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="270">
-                    <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="C:\Users\sa\php\httpd-2.4.27-x64-vc14\Apache24\htdocs\pbs\exportToHTML" />
   </component>
@@ -69,61 +45,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controller/backend/Index.php">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/App.php">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1170">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="41" column="95" lean-forward="false" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/Controller.php">
+      <file leaf-file-name="top.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/backend/index/top.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="13" column="170" lean-forward="false" selection-start-line="13" selection-start-column="170" selection-end-line="13" selection-end-column="170" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6b76640b/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/pbs.user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-783">
-              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-              <folding>
-                <marker date="1509461140748" expanded="true" signature="352:366" ph="SELECT * FRO... $" />
-                <marker date="1509461140748" expanded="true" signature="352:398" ph="SELECT * FRO... $" />
-                <marker date="1509461140748" expanded="true" signature="352:406" ph="SELECT * FRO... $" />
-                <marker date="1509461140748" expanded="true" signature="352:414" ph="SELECT * FRO... $" />
-                <marker date="1509461140748" expanded="true" signature="561:607" ph="SELECT * FRO... $" />
-                <marker date="1509461140748" expanded="true" signature="749:800" ph="SELECT * FRO... $" />
-                <marker date="1509461140748" expanded="true" signature="1358:1464" ph="INSERT INTO `${{$this -&gt; getTableName()}}`... " />
-                <marker date="1509461140748" expanded="true" signature="1568:1624" ph="DELETE FROM " />
-                <marker date="1509461140748" expanded="true" signature="1964:2053" ph="UPDATE `${{$... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +101,8 @@
       <find>TQBlog官网</find>
       <find>_loadH</find>
       <find>session_start</find>
+      <find>退出登录</find>
+      <find>验证码</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -186,7 +135,6 @@
         <option value="$PROJECT_DIR$/app/view/backend/useradd.html" />
         <option value="$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/app/view/backend/user/useredit.html" />
         <option value="$PROJECT_DIR$/app/view/backend/useredit.html" />
-        <option value="$PROJECT_DIR$/app/view/backend/index/top.html" />
         <option value="$PROJECT_DIR$/app/view/backend/index/index.html" />
         <option value="$PROJECT_DIR$/app/view/backend/index/content.html" />
         <option value="$PROJECT_DIR$/app/view/backend/index/menu.html" />
@@ -196,9 +144,11 @@
         <option value="$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/core/Model.php" />
         <option value="$PROJECT_DIR$/core/Model.php" />
         <option value="$PROJECT_DIR$/core/Controller.php" />
-        <option value="$PROJECT_DIR$/app/controller/backend/User.php" />
         <option value="$PROJECT_DIR$/core/App.php" />
         <option value="$PROJECT_DIR$/app/controller/backend/Index.php" />
+        <option value="$PROJECT_DIR$/app/view/backend/index/top.html" />
+        <option value="$PROJECT_DIR$/app/view/backend/user/login.html" />
+        <option value="$PROJECT_DIR$/app/controller/backend/User.php" />
       </list>
     </option>
   </component>
@@ -210,8 +160,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="145" />
-    <option name="y" value="209" />
+    <option name="x" value="71" />
+    <option name="y" value="428" />
     <option name="width" value="1143" />
     <option name="height" value="657" />
   </component>
@@ -262,6 +212,13 @@
               <item name="pbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="pbs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -270,6 +227,22 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pbs" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +307,7 @@
       <workItem from="1509367486657" duration="1148000" />
       <workItem from="1509372283640" duration="1828000" />
       <workItem from="1509417880241" duration="1070000" />
-      <workItem from="1509424835416" duration="14960000" />
+      <workItem from="1509424835416" duration="20735000" />
     </task>
     <task id="LOCAL-00001" summary="add create.sql">
       <created>1508394199226</created>
@@ -588,14 +561,21 @@
       <option name="project" value="LOCAL" />
       <updated>1509440884967</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="user login">
+      <created>1509468315024</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1509468315024</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123022000" />
+    <option name="totallyTimeSpent" value="128797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="209" width="1143" height="657" extended-state="0" />
+    <frame x="71" y="428" width="1143" height="657" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3003049" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -674,20 +654,14 @@
     <MESSAGE value="git push test" />
     <MESSAGE value="update(app/view/backend/index and user)" />
     <MESSAGE value="update create.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="update create.sql" />
+    <MESSAGE value="user login" />
+    <option name="LAST_COMMIT_MESSAGE" value="user login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day2/day2/app/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -891,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/backend/index/top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/backend/script/md5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3253">
@@ -969,39 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/6b76640b/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/pbs.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <marker date="1509461140748" expanded="true" signature="352:366" ph="SELECT * FRO... $" />
-            <marker date="1509461140748" expanded="true" signature="352:398" ph="SELECT * FRO... $" />
-            <marker date="1509461140748" expanded="true" signature="352:406" ph="SELECT * FRO... $" />
-            <marker date="1509461140748" expanded="true" signature="352:414" ph="SELECT * FRO... $" />
-            <marker date="1509461140748" expanded="true" signature="561:607" ph="SELECT * FRO... $" />
-            <marker date="1509461140748" expanded="true" signature="749:800" ph="SELECT * FRO... $" />
-            <marker date="1509461140748" expanded="true" signature="1358:1464" ph="INSERT INTO `${{$this -&gt; getTableName()}}`... " />
-            <marker date="1509461140748" expanded="true" signature="1568:1624" ph="DELETE FROM " />
-            <marker date="1509461140748" expanded="true" signature="1964:2053" ph="UPDATE `${{$... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/core/App.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1033,18 +967,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
+    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/app/controller/backend/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="585">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day3/day3/app/controller/backend/Index.php">
+    <entry file="file://$PROJECT_DIR$/app/controller/backend/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="-400">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1057,10 +991,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/backend/Index.php">
+    <entry file="file://$PROJECT_DIR$/core/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="162">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6b76640b/660b290e-dd9c-4b23-ac1c-f350bcaaddc5/pbs.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <marker date="1509461140748" expanded="true" signature="352:366" ph="SELECT * FRO... $" />
+            <marker date="1509461140748" expanded="true" signature="352:398" ph="SELECT * FRO... $" />
+            <marker date="1509461140748" expanded="true" signature="352:406" ph="SELECT * FRO... $" />
+            <marker date="1509461140748" expanded="true" signature="352:414" ph="SELECT * FRO... $" />
+            <marker date="1509461140748" expanded="true" signature="561:607" ph="SELECT * FRO... $" />
+            <marker date="1509461140748" expanded="true" signature="749:800" ph="SELECT * FRO... $" />
+            <marker date="1509461140748" expanded="true" signature="1358:1464" ph="INSERT INTO `${{$this -&gt; getTableName()}}`... " />
+            <marker date="1509461140748" expanded="true" signature="1568:1624" ph="DELETE FROM " />
+            <marker date="1509461140748" expanded="true" signature="1964:2053" ph="UPDATE `${{$... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/backend/index/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="170" lean-forward="false" selection-start-line="13" selection-start-column="170" selection-end-line="13" selection-end-column="170" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="41" column="95" lean-forward="false" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
           <folding />
         </state>
       </provider>
