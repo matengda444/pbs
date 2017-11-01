@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/Index.php" afterPath="$PROJECT_DIR$/app/controller/backend/Index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/User.php" afterPath="$PROJECT_DIR$/app/controller/backend/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/backend/user/login.html" afterPath="$PROJECT_DIR$/app/view/backend/user/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="84" column="76" lean-forward="false" selection-start-line="84" selection-start-column="76" selection-end-line="84" selection-end-column="76" />
+            <state relative-caret-position="72">
+              <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
               <folding>
                 <element signature="e#120#140#0#PHP" expanded="true" />
               </folding>
@@ -77,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="61">
               <caret line="41" column="187" lean-forward="true" selection-start-line="41" selection-start-column="187" selection-end-line="41" selection-end-column="187" />
               <folding />
             </state>
@@ -174,8 +172,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="478" />
-    <option name="y" value="488" />
+    <option name="x" value="100" />
+    <option name="y" value="482" />
     <option name="width" value="1143" />
     <option name="height" value="785" />
   </component>
@@ -313,7 +311,7 @@
       <workItem from="1509367486657" duration="1148000" />
       <workItem from="1509372283640" duration="1828000" />
       <workItem from="1509417880241" duration="1070000" />
-      <workItem from="1509424835416" duration="25907000" />
+      <workItem from="1509424835416" duration="26779000" />
     </task>
     <task id="LOCAL-00001" summary="add create.sql">
       <created>1508394199226</created>
@@ -588,14 +586,21 @@
       <option name="project" value="LOCAL" />
       <updated>1509514644263</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="captch logic">
+      <created>1509520769872</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1509520769872</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133969000" />
+    <option name="totallyTimeSpent" value="134841000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="488" width="1143" height="785" extended-state="0" />
+    <frame x="100" y="482" width="1143" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3003049" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -677,7 +682,8 @@
     <MESSAGE value="user login" />
     <MESSAGE value="update" />
     <MESSAGE value="add Captcha class(vendor)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Captcha class(vendor)" />
+    <MESSAGE value="captch logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="captch logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1058,21 +1064,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
+    <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="84" column="76" lean-forward="false" selection-start-line="84" selection-start-column="76" selection-end-line="84" selection-end-column="76" />
-          <folding>
-            <element signature="e#120#140#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="61">
+          <caret line="41" column="187" lean-forward="true" selection-start-line="41" selection-start-column="187" selection-end-line="41" selection-end-column="187" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/backend/user/login.html">
+    <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="41" column="187" lean-forward="true" selection-start-line="41" selection-start-column="187" selection-end-line="41" selection-end-column="187" />
-          <folding />
+        <state relative-caret-position="72">
+          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding>
+            <element signature="e#120#140#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

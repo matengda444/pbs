@@ -86,6 +86,8 @@ class User extends Controller
         }
         //var_dump($_POST);
         $userModel = new UserModel;
+        //加斜杠
+        $_POST['username'] = addslashes($_POST['username']);
         $user = $userModel->find("username = '{$_POST['username']}' AND password = '{$_POST['password']}'");
         //var_dump($user);
         if ($user != false) {//找到了用户
