@@ -17,6 +17,37 @@ class Model extends PDOWrapper
     }
 
     /**
+     * @param null $model
+     * @return model
+     */
+    static function model($model = null)
+    {
+        static $obj = array();
+        //echo get_called_class();exit();
+        if ($model === null) {
+
+            $model = get_called_class();
+            //$model = 'app\model\Category';
+            //$model = rtrim("$model", 1);
+            //echo $model;exit();
+        }
+        //echo $model;exit();
+        if (empty($obj[$model])) {
+            //echo $model;exit();
+            $obj[$model] = new $model;
+            //var_dump($a);
+            //$obj[$model] = new $model();
+            //echo $model; 本来变量model应该等于 "app\model\Category" 但是不知道为何变量值是 "app\model\Category1"
+            //print_r("<pre>");
+            //var_dump($obj);
+
+            //var_dump($obj[$model]);
+        }
+        //return $obj[$model];
+        return $obj[$model];
+    }
+
+    /**
      * 根据条件查处一行数据
      */
     public function find($where = '1 = 1')
