@@ -32,4 +32,4 @@ INSERT INTO `category` VALUES
 (NULL, '生物', '', 50, 1),
 (NULL, '鸟类', '', 50, 6),
 (NULL, '川菜', '', 50, 4),
-(NULL, '粤菜', '', 50, 4)
+(NULL, '粤菜', '', 50, 4);
