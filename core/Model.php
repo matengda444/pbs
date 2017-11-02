@@ -126,4 +126,11 @@ class Model extends PDOWrapper
     {
         throw new \Exception('具体模型必须重写 getTableName() 方法');
     }
+    public function count($where = '1 = 1')
+    {
+        $sql = "SELECT count(*) as count FROM `{$this -> getTableName()}` WHERE {$where}";
+        $row = $this -> getOne($sql);
+        //var_dump($row);exit;
+        return $row['count'];
+    }
 }

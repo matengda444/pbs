@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="addslashes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/backend/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/backend/category/index.html" />
+    <list default="true" id="420df5ea-03fb-4d56-ac9d-ba903180881c" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/User.php" afterPath="$PROJECT_DIR$/app/controller/backend/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Category.php" afterPath="$PROJECT_DIR$/app/model/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/backend/index/menu.html" afterPath="$PROJECT_DIR$/app/view/backend/index/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/backend/Category.php" afterPath="$PROJECT_DIR$/app/controller/backend/Category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Model.php" afterPath="$PROJECT_DIR$/core/Model.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +34,38 @@
     </expand>
     <select />
   </component>
+  <component name="DockManager">
+    <window id="6">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/Category.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-837">
+                    <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                    <folding>
+                      <element signature="e#42#62#0#PHP" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/User.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="27">
+                    <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="C:\Users\sa\php\httpd-2.4.27-x64-vc14\Apache24\htdocs\pbs\exportToHTML" />
   </component>
@@ -48,11 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/backend/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+            <state relative-caret-position="198">
+              <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
               <folding>
                 <element signature="e#121#141#0#PHP" expanded="true" />
               </folding>
@@ -60,11 +88,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/model/Category.php">
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="132" column="10" lean-forward="false" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+              <folding>
+                <marker date="1509617902601" expanded="true" signature="1223:1237" ph="SELECT * FRO... $" />
+                <marker date="1509617902601" expanded="true" signature="1223:1269" ph="SELECT * FRO... $" />
+                <marker date="1509617902601" expanded="true" signature="1223:1277" ph="SELECT * FRO... $" />
+                <marker date="1509617902601" expanded="true" signature="1223:1285" ph="SELECT * FRO... $" />
+                <marker date="1509617902601" expanded="true" signature="1432:1478" ph="SELECT * FRO... $" />
+                <marker date="1509617902601" expanded="true" signature="1620:1671" ph="SELECT * FRO... $" />
+                <marker date="1509617902601" expanded="true" signature="2229:2335" ph="INSERT INTO `${{$this -&gt; getTableName()}}`... " />
+                <marker date="1509617902601" expanded="true" signature="2439:2495" ph="DELETE FROM " />
+                <marker date="1509617902601" expanded="true" signature="2835:2924" ph="UPDATE `${{$... " />
+                <marker date="1509617902601" expanded="true" signature="3171:3235" ph="SELECT count... " />
+                <marker date="1509617902601" expanded="true" signature="3171:3352" ph="SELECT count... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/backend/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -112,6 +162,7 @@
       <find>getC</find>
       <find>td2</find>
       <find>var_dump</find>
+      <find>;</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -158,10 +209,10 @@
         <option value="$PROJECT_DIR$/app/view/backend/index/menu.html" />
         <option value="$PROJECT_DIR$/app/view/backend/category/index.html" />
         <option value="$PROJECT_DIR$/app/controller/backend/User.php" />
-        <option value="$PROJECT_DIR$/core/Model.php" />
-        <option value="$PROJECT_DIR$/app/controller/backend/Category.php" />
         <option value="$PROJECT_DIR$/doc/create.sql" />
         <option value="$PROJECT_DIR$/app/model/Category.php" />
+        <option value="$PROJECT_DIR$/core/Model.php" />
+        <option value="$PROJECT_DIR$/app/controller/backend/Category.php" />
       </list>
     </option>
   </component>
@@ -172,9 +223,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="248" />
-    <option name="y" value="228" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="418" />
+    <option name="y" value="254" />
     <option name="width" value="1143" />
     <option name="height" value="785" />
   </component>
@@ -282,7 +333,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -329,7 +380,7 @@
       <workItem from="1509367486657" duration="1148000" />
       <workItem from="1509372283640" duration="1828000" />
       <workItem from="1509417880241" duration="1070000" />
-      <workItem from="1509424835416" duration="54186000" />
+      <workItem from="1509424835416" duration="59515000" />
     </task>
     <task id="LOCAL-00001" summary="add create.sql">
       <created>1508394199226</created>
@@ -660,14 +711,21 @@
       <option name="project" value="LOCAL" />
       <updated>1509604680378</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="找错误两个小时">
+      <created>1509604870407</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1509604870407</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162248000" />
+    <option name="totallyTimeSpent" value="167577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1625" height="1058" extended-state="6" />
+    <frame x="418" y="254" width="1143" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -677,7 +735,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32774675" sideWeight="0.49722442" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29925454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12444445" sideWeight="0.49467275" order="0" side_tool="false" content_ui="combo" x="564" y="131" width="315" height="657" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17932296" sideWeight="0.49467275" order="0" side_tool="false" content_ui="combo" x="564" y="131" width="315" height="657" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5242452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="数据库" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293687" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -729,7 +787,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update create.sql(create table user)" />
     <MESSAGE value="create index.php" />
     <MESSAGE value="create App.php" />
     <MESSAGE value="update index.php" />
@@ -754,7 +811,8 @@
     <MESSAGE value="create Category.php" />
     <MESSAGE value="create Category(app\model)" />
     <MESSAGE value="update create.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="update create.sql" />
+    <MESSAGE value="找错误两个小时" />
+    <option name="LAST_COMMIT_MESSAGE" value="找错误两个小时" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -944,14 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/backend/user/useradd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -988,14 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/backend/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -1055,14 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4143">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/backend/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1492">
@@ -1103,24 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <marker date="1509599667335" expanded="true" signature="1223:1237" ph="SELECT * FRO... $" />
-            <marker date="1509599667335" expanded="true" signature="1223:1269" ph="SELECT * FRO... $" />
-            <marker date="1509599667335" expanded="true" signature="1223:1277" ph="SELECT * FRO... $" />
-            <marker date="1509599667335" expanded="true" signature="1223:1285" ph="SELECT * FRO... $" />
-            <marker date="1509599667335" expanded="true" signature="1432:1478" ph="SELECT * FRO... $" />
-            <marker date="1509599667335" expanded="true" signature="1620:1671" ph="SELECT * FRO... $" />
-            <marker date="1509599667335" expanded="true" signature="2229:2335" ph="INSERT INTO `${{$this -&gt; getTableName()}}`... " />
-            <marker date="1509599667335" expanded="true" signature="2439:2495" ph="DELETE FROM " />
-            <marker date="1509599667335" expanded="true" signature="2835:2924" ph="UPDATE `${{$... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day5/代码/app/model/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1136,26 +1152,6 @@
         <state relative-caret-position="225">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/backend/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="e#121#141#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#42#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,9 +1173,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="377">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/backend/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="132" column="10" lean-forward="false" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+          <folding>
+            <marker date="1509617902601" expanded="true" signature="1223:1237" ph="SELECT * FRO... $" />
+            <marker date="1509617902601" expanded="true" signature="1223:1269" ph="SELECT * FRO... $" />
+            <marker date="1509617902601" expanded="true" signature="1223:1277" ph="SELECT * FRO... $" />
+            <marker date="1509617902601" expanded="true" signature="1223:1285" ph="SELECT * FRO... $" />
+            <marker date="1509617902601" expanded="true" signature="1432:1478" ph="SELECT * FRO... $" />
+            <marker date="1509617902601" expanded="true" signature="1620:1671" ph="SELECT * FRO... $" />
+            <marker date="1509617902601" expanded="true" signature="2229:2335" ph="INSERT INTO `${{$this -&gt; getTableName()}}`... " />
+            <marker date="1509617902601" expanded="true" signature="2439:2495" ph="DELETE FROM " />
+            <marker date="1509617902601" expanded="true" signature="2835:2924" ph="UPDATE `${{$... " />
+            <marker date="1509617902601" expanded="true" signature="3171:3235" ph="SELECT count... " />
+            <marker date="1509617902601" expanded="true" signature="3171:3352" ph="SELECT count... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../hr1@hytd.org-传智播客/video/中级项目_day4/代码/app/controller/backend/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/backend/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="e#121#141#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

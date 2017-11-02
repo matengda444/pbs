@@ -11,6 +11,7 @@ namespace app\controller\backend;
 
 use core\Controller;
 use app\model\Category as CategoryModel;
+use function PHPSTORM_META\elementType;
 
 class Category extends Controller
 {
@@ -26,5 +27,19 @@ class Category extends Controller
         return $this -> _loadHtml('category/index', array(
             'categorys' => $categorys
         ));
+    }
+    public function delete()
+    {
+        $id = $_GET['id'];
+        //var_dump(CategoryModel::model() -> count("parent_id = '{$id}'"));
+        if (CategoryModel::model()->count("parent_id = '{$id}'") == 0) {
+            if (CategoryModel::model()->deleteById($id)) {
+                return $this->_redirect('删除成功', '?c=Category&p=backend&a=index');
+            } else {
+                return $this->_redirect('删除失败', '?c=Category&p=backend&a=index');
+            }
+        } else {
+            return $this->_redirect('有子分类,无法删除', '?c=Category&p=backend&a=index');
+        }
     }
 }
