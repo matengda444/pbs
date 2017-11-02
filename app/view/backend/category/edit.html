@@ -4,26 +4,26 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="generator" content="TQBlog V2.0 Release 20140101" />
     <meta name="robots" content="none" />
-    <title>分类添加</title>
-    <link href="<?php echo PLATFORM ?>/css/admin.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="<?php echo PLATFORM ?>/css/jquery.bettertip.css" type="text/css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="<?php echo PLATFORM ?>/css/jquery-ui.custom.css"/>
-    <script src="<?php echo PLATFORM ?>/script/common.js" type="text/javascript"></script>
-    <script src="<?php echo PLATFORM ?>/script/jquery.bettertip.pack.js" type="text/javascript"></script>
-    <script src="<?php echo PLATFORM ?>/script/jquery-ui.custom.min.js" type="text/javascript"></script>
+    <title>www.tqblog.com - 分类编辑 - Powered by TQBlog</title>
+    <link href="<?= PLATFORM ?>/css/admin.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="<?= PLATFORM ?>/css/jquery.bettertip.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?= PLATFORM ?>/css/jquery-ui.custom.css"/>
+    <script src="<?= PLATFORM ?>/script/common.js" type="text/javascript"></script>
+    <script src="<?= PLATFORM ?>/script/jquery.bettertip.pack.js" type="text/javascript"></script>
+    <script src="<?= PLATFORM ?>/script/jquery-ui.custom.min.js" type="text/javascript"></script>
 </head>
 <body>
 <section class="main">
     <div id="divMain">
-        <div class="divHeader2">分类添加</div>
+        <div class="divHeader2">分类编辑</div>
         <div class="SubMenu"></div>
         <div id="divMain2" class="edit category_edit">
-            <form id="edit" name="edit" method="post" action="?p=backend&c=Category&a=add">
+            <form id="edit" name="edit" method="post" action="?c=Category&p=backend&a=edit&id=<?= $category['id'] ?>">
                 <input type="hidden" name="action" value="insert"/>
                 <input type="hidden" name="module" value="Category"/>
                 <p>
                     <span class="title">名称:</span><span class="star">(*)</span><br />
-                    <input id="edtName" class="edit" size="40" name="Name" maxlength="50" type="text" value=""  onFocus="click_focus(this)" onBlur="click_blur(this)" />
+                    <input id="edtName" class="edit" size="40" name="Name" maxlength="50" type="text" value="<?= $category['name'] ?>"  onFocus="click_focus(this)" onBlur="click_blur(this)" />
                     <script>
                         /*
                          * 捕捉焦点
@@ -48,20 +48,25 @@
                 </p>
                 <p>
                     <span class="title">别名:</span><br />
-                    <input id="edtAlias" class="edit" size="40" name="Alias" type="text" value="" />
+                    <input id="edtAlias" class="edit" size="40" name="Alias" type="text" value="<?= $category['alias'] ?>" />
                 </p>
 
                 <p>
                     <span class="title">排序:</span><br />
-                    <input id="edtOrder" class="edit" size="40" name="Order" type="text" value="50" />
+                    <input id="edtOrder" class="edit" size="40" name="Order" type="text" value="<?= $category['sort'] ?>" />
                 </p>
                 <p>
                     <span class="title">父分类:</span><br />
                     <select id="edtParentID" name="ParentID" class="edit" size="1">
                         <option value="0">无</option>
-                        <?php foreach($categorys as $category): ?>
-                            <option value="<?= $category['id'] ?>">
-                                <?= str_repeat('&nbsp;', $category['level'] * 4) ?><?= $category['name'] ?>
+                        <?php foreach($categorys as $cat): ?>
+                        <?php // if (当前循环的$cat['id']等于$category['parent_id']): ?>
+                        <?php if ($cat['id'] == $category['parent_id']): ?>
+                            <option selected value="<?= $cat['id'] ?>">
+                        <?php else: ?>
+                            <option value="<?= $cat['id'] ?>">
+                        <?php endif; ?>
+                                <?= str_repeat('&nbsp;', $cat['level'] * 4) ?><?= $cat['name'] ?>
                             </option>
                         <?php endforeach; ?>
                     </select>
@@ -75,6 +80,15 @@
                 </p>
             </form>
             <script type="text/javascript">
+                function checkInfo(){
+                    document.getElementById("edit").action="";
+
+                    if(!$("#edtName").val()){
+                        alert("名称不能为空！");
+                        return false
+                    }
+
+                }
             </script>
             <script type="text/javascript">ActiveLeftMenu("aCategoryAdmin");</script>
             <script type="text/javascript">AddHeaderIcon("image/admin/category_32.png");</script>
