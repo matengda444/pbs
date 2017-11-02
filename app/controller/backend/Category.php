@@ -42,4 +42,30 @@ class Category extends Controller
             return $this->_redirect('有子分类,无法删除', '?c=Category&p=backend&a=index');
         }
     }
+    public function add()
+    {
+        //$categorys = '';
+        if ($_POST) {
+            $category = array();
+            $category['name'] = $_POST['Name'];
+            $category['alias'] = $_POST['Alias'];
+            $category['sort'] = $_POST['Order'];
+            $category['parent_id'] = $_POST['ParentID'];
+            if (!$_POST['Name']) {
+                return $this->_redirect('名称不能为空','?c=Category&p=backend&a=add');
+            }
+            if (CategoryModel::model()->insert($category)) {
+                return $this->_redirect('添加分类成功', '?p=backend&c=Category&a=index');
+            } else {
+                return $this->_redirect('添加分类失败', '?p=backend&c=Category&a=index');
+            }
+        } else {
+//            $categorys = CategoryModel::model()->findAll();
+//            $categorys = CategoryModel::model()->noLimitCategory($categorys);
+            $categorys = CategoryModel::model()->noLimitCategory(CategoryModel::model()->findAll());
+            return $this->_loadHtml('category/add', array(
+                'categorys' => $categorys
+            ));
+        }
+    }
 }
