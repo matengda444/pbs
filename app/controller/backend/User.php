@@ -15,7 +15,8 @@ class User extends Controller
 {
     public function index()
     {
-        $userModel = new UserModel();
+        //$userModel = new UserModel();
+        $userModel = UserModel::model();
         $users = $userModel->findAll();
         //var_dump($users);
         $this->_loadHtml('user/userlist', array(
@@ -25,7 +26,7 @@ class User extends Controller
 
     public function delete()
     {
-        $userModel = new UserModel();
+        $userModel = UserModel::model();
         $id = $_GET['id'];
         if ($userModel->deleteById($id)) {
             return $this->_redirect("{$id} 删除成功", '?c=User&p=backend&a=index');
@@ -38,11 +39,12 @@ class User extends Controller
     {
         //var_dump($_POST);
         if (!empty($_POST)) {
-            $userModel = new UserModel();
+            $userModel = UserModel::model();
             if ($userModel->insert(array(
                 'username' => $_POST['Name'],
                 'nickname' => $_POST['Alias'],
-                'email' => $_POST['Email']
+                'email' => $_POST['Email'],
+                'password' => md5(md5($_POST['Password']))
             ))) {
                 return $this->_redirect("{$_POST['Name']} 添加成功", '?c=User&p=backend&a=index');
             } else {
@@ -55,7 +57,7 @@ class User extends Controller
     public function edit()
     {
         //var_dump($_POST);
-        $userModel = new UserModel();
+        $userModel = UserModel::model();
         $id = $_GET['id'];
         if (!empty($_POST)) {
             if ($userModel->updateById($id, array(
