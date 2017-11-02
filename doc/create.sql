@@ -26,10 +26,10 @@ CREATE TABLE `category` (
 )ENGINE=innodb DEFAULT CHARSET utf8;
 
 INSERT INTO `category` VALUES
-(NULL, '科技', '', 0, 50),
-(NULL, '武侠', '', 0, 50),
-(NULL, 'IT', '', 1, 50),
-(NULL, '生物', '', 1, 50),
-(NULL, '鸟类', '', 6, 50),
-(NULL, '川菜', '', 4, 50),
-(NULL, '粤菜', '', 4, 50)
+(NULL, '科技', '', 50, 0),
+(NULL, '武侠', '', 50, 0),
+(NULL, 'IT', '', 50, 1),
+(NULL, '生物', '', 50, 1),
+(NULL, '鸟类', '', 50, 6),
+(NULL, '川菜', '', 50, 4),
+(NULL, '粤菜', '', 50, 4)
