@@ -33,3 +33,14 @@ INSERT INTO `category` VALUES
 (NULL, '鸟类', '', 50, 6),
 (NULL, '川菜', '', 50, 4),
 (NULL, '粤菜', '', 50, 4);
+
+CREATE TABLE IF NOT EXISTS `article` (
+    `id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` varchar(100) NOT NULL,
+    `content` text,
+    `category_id` int(11) DEFAULT NULL,
+    `status` tinyint(4) NOT NULL DEFAULT '2',
+    `publish_date` int(11) NOT NULL,
+    `is_top` tinyint(4) NOT NULL DEFAULT '2',
+    PRIMARY KEY (`id`)
+) ENGINE = innodb AUTO_INCREMENT=510 DEFAULT CHARSET = utf8;
