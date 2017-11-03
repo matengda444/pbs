@@ -9,7 +9,16 @@
 namespace app\controller\backend;
 
 
-class Article
-{
+use core\Controller;
 
+class Article extends Controller
+{
+    public function add()
+    {
+        if ($_POST) {
+
+        } else {
+            return $this->_loadHtml('article/add');
+        }
+    }
 }
