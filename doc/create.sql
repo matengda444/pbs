@@ -555,3 +555,13 @@ INSERT INTO `article` (`id`, `name`, `content`, `category_id`, `status`, `publis
 (507, '1', '1', 19, 2, 0, 2),
 (508, '1', '1', 19, 2, 0, 2),
 (509, '1', '<p>1</p>\r\n', 2, 1, 1448008399, 2);
+
+CREATE TABLE IF NOT EXISTS `comm` (
+    `id` INT (10) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `user_id` INT (11) NOT NULL,
+    `publish_time` INT (11) NOT NULL,
+    `content` VARCHAR (200) NOT NULL,
+    `reply_id` INT (10) UNSIGNED NOT NULL DEFAULT 0,
+    `article_id` INT (11) NOT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=innodb AUTO_INCREMENT = 18 DEFAULT CHARSET = utf8;
