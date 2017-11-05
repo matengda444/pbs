@@ -12,6 +12,7 @@ namespace app\controller\backend;
 use core\Controller;
 use app\model\Article as ArticleModel;
 use app\model\Category;
+use vendor\Pager;
 
 class Article extends Controller
 {
@@ -36,5 +37,38 @@ class Article extends Controller
                 'categorys' => $categorys
             ));
         }
+    }
+    public function index()
+    {
+        // 0表示不加这个条件(私有规定)
+        $status = isset($_POST['status']) ? $_POST['status'] : 0;
+        $categoryID = isset($_POST['category']) ? $_POST['category'] : 0;
+        // 没有istop表示（置顶+不置顶的文章）
+        // sql语句条件：不置顶的条件和不加置顶条件谁优先？
+        // $isTop = isset($_POST['istop'])? 1 : 2;
+        // 不置顶: SELECT * FROM article WHERE is_top=2
+        // 不加置顶条件： SELECT * FROM article
+        $isTop = isset($_POST['istop']) ? $_POST['istop'] : 0;
+        $name = isset($_POST['search']) ? $_POST['search'] : '';
+        $size = isset($_GET['size']) ? $_GET['size'] : 10;//一个页面显示多少条数据
+        $page = isset($_GET['page']) ? $_GET['page'] : 1;//当前页面是多少页
+        $start = ($page - 1) * $size;
+
+        //生成分页的按钮
+        $pager = new Pager(ArticleModel::model()->count(), $size, $page, '', array(
+            'c' => 'Article',
+            'p' => 'backend',
+            'a' => 'index',
+            'size' => $size
+        ));
+        $articles = ArticleModel::model()->getList($status, $categoryID, $isTop, $name, $start, $size);
+        //var_dump($articles);exit;
+        $categorys = Category::model()->noLimitCategory(Category::model()->findAll());
+        var_dump($pager->showPage());exit;
+        return $this->_loadHtml('article/index', array(
+            'articles' => $articles,
+            'categorys' => $categorys,
+            'pagerHtml' => $pager -> showPage()
+        ));
     }
 }
