@@ -64,7 +64,7 @@ class Article extends Controller
         $articles = ArticleModel::model()->getList($status, $categoryID, $isTop, $name, $start, $size);
         //var_dump($articles);exit;
         $categorys = Category::model()->noLimitCategory(Category::model()->findAll());
-        var_dump($pager->showPage());exit;
+        //var_dump($pager->showPage());exit;
         return $this->_loadHtml('article/index', array(
             'articles' => $articles,
             'categorys' => $categorys,
