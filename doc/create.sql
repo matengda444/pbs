@@ -583,3 +583,7 @@ INSERT INTO `comm` (`id`, `user_id`, `publish_time`, `content`, `reply_id`, `art
 (15, 1, 0, '萌萌哒', 0, 1),
 (16, 1, 0, '萌萌哒', 0, 1),
 (17, 1, 0, '萌萌哒', 0, 1);
+
+ALTER TABLE `article` ADD COLUMN `user_id` INT UNSIGNED NOT NULL;
+ALTER TABLE `article` ADD COLUMN `read` INT UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE `article` ADD COLUMN `praise` INT UNSIGNED NOT NULL DEFAULT 0;
