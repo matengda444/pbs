@@ -94,6 +94,7 @@ class User extends Controller
         //var_dump($user);
         if ($user != false) {//找到了用户
             $_SESSION['loginFlag'] = true;
+            $_SESSION['user'] = $user;
             return $this -> _redirect('登录成功', '?c=Index&p=backend&a=index');
         } else {//没有找到用户
             $_SESSION['loginFlag'] = false;

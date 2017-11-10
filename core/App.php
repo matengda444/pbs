@@ -75,7 +75,10 @@ class App
         spl_autoload_register(function($className)
         {
             //echo str_replace('\\', DIRECTORY_SEPARATOR, $className);
-           require ROOT . DS . str_replace('\\', DIRECTORY_SEPARATOR, $className) . '.php';
+           $file = ROOT . DS . str_replace('\\', DIRECTORY_SEPARATOR, $className) . '.php';
+           if (is_file($file)) {
+               require $file;
+           }
         });
     }
 

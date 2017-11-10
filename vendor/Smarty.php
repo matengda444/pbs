@@ -7,9 +7,9 @@
  */
 namespace vendor;
 
-return __DIR__ . '/smarty/Smarty.class.php';
+require 'smarty/Smarty.class.php';
 
-use Smarty as BaseSmary
+use Smarty as BaseSmarty;
 
 class Smarty extends BaseSmarty
 {

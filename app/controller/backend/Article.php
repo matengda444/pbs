@@ -23,9 +23,12 @@ class Article extends Controller
                 'name' => $_POST['Title'],
                 'content' => $_POST['Content'],
                 'category_id' => $_POST['CateID'],
-                'status' => $_POST['Status'],
+                //xss
+                'status' => htmlspecialchars($_POST['Status']),
                 'publish_date' => strtotime($_POST['PostTime']),
-                'is_top' => isset($_POST['isTop']) ? 1 : 2
+                'is_top' => isset($_POST['isTop']) ? 1 : 2,
+                //当前用户的id
+                'user_id' => $_SESSION['user']['id']
             ))) {
                 return $this->_redirect('添加成功', '?c=Article&p=backend&a=index');
             } else {
