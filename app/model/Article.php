@@ -42,4 +42,28 @@ class Article extends Model
         //echo $sql;
         return $this->getAll($sql);
     }
+
+    public function getArticleById($id)
+    {
+        $sql = "SELECT article.*, user.username, category.name AS category_name, count(comm.id) AS comm_count
+                FROM article
+                LEFT JOIN user ON article.user_id = user.id
+                LEFT JOIN category ON article.category_id = category.id
+                LEFT JOIN comm ON article.id = comm.article_id
+                WHERE article.id = {$id} GROUP BY article.id";
+        return $this->getOne($sql);
+    }
+
+    public function increaseRead($id)
+    {
+        $sql = "UPDATE article SET `read` = `read` + 1 WHERE id = {$id}";
+        return $this->exec($sql);
+    }
+
+    public function increasePraise($id)
+    {
+        $sql = "UPDATE `article` SET praise = praise + 1 WHERE id = {$id}";
+        //var_dump($this->exec($sql));
+        return $this->exec($sql);
+    }
 }

@@ -9,6 +9,7 @@
 namespace app\controller\frontend;
 
 use app\model\Category;
+use app\model\Comm;
 use core\Controller;
 use app\model\Article as ArticleModel;
 use vendor\Pager;
@@ -42,5 +43,36 @@ class Article extends Controller
         $this->_smarty->assign('pagerButtons', $pagerButtons);
         $this->_smarty->display('article/index.html');
         //return $this->_loadHtml('article/index');
+    }
+
+    public function view()
+    {
+        $id = $_GET['id'];
+        ArticleModel::model()->increaseRead($id);
+        $article = ArticleModel::model()->getArticleById($id);
+        //var_dump($article);exit;
+        $comments = Comm::model()->getCommByArticleId($id);
+        //var_dump($comments);exit;
+        $comments = Comm::model()->noLimitComment($comments);
+        //var_dump($comments);exit;
+        $this->_smarty->assign('comments', $comments);
+        $this->_smarty->assign('article', $article);
+        $this->_smarty->display('article/view.html');
+    }
+
+    public function praise()
+    {
+        $id = $_GET['id'];
+        //var_dump(ArticleModel::model()->increasePraise($id));exit;
+        if (!isset($_SESSION['praise_' . $id])) {
+            if (ArticleModel::model()->increasePraise($id)) {
+                $_SESSION['praise_' . $id] = true;
+                return $this->_redirect('点赞成功', '?c=Article&p=frontend&a=view&id=' . $id);
+            } else {
+                return $this->_redirect('点赞失败', '?c=Article&p=frontend&a=view&id=' . $id);
+            }
+        } else {
+            return $this->_redirect('不能重复点赞', '?p=frontend&c=Article&a=view&id=' . $id);
+        }
     }
 }

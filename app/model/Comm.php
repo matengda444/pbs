@@ -23,4 +23,24 @@ class Comm extends Model
                 LEFT JOIN comm co ON comm.reply_id = co.id";
         return $this->getAll($sql);
     }
+    public function getCommByArticleId($id)
+    {
+        $sql = "SELECT comm.*, user.username FROM comm
+                LEFT JOIN user ON comm.user_id = user.id
+                WHERE comm.article_id = {$id}";
+        return $this->getAll($sql);
+    }
+
+    public function noLimitComment($comments, $replyId = 0)
+    {
+        $noLimitComments = array();
+        foreach ($comments as $comment) {
+            if ($comment['reply_id'] == $replyId) {
+                //可能有子评论
+                $comment['son'] = $this->noLimitComment($comments, $comment['id']);
+                $noLimitComments[] = $comment;
+            }
+        }
+        return $noLimitComments;
+    }
 }

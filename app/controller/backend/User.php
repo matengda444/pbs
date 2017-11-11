@@ -98,7 +98,7 @@ class User extends Controller
             return $this -> _redirect('登录成功', '?c=Index&p=backend&a=index');
         } else {//没有找到用户
             $_SESSION['loginFlag'] = false;
-            return $this -> _redirect('登录失败', '?c=Index&pbackend&a=login');
+            return $this -> _redirect('登录失败', '?c=Index&backend&a=login');
         }
     }
 
